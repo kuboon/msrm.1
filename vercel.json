@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "functions": {
+    "api/vercel.ts": { "runtime": "vercel-deno@3.0.0" }
+  },
+  "rewrites": [
+    {"source": "/:path*", "destination": "api/vercel.ts"}
+  ],
+  "trailingSlash": false
+}
