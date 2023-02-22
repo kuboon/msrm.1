@@ -1,3 +1,0 @@
-[submodule "webauthn-skeleton"]
-	path = webauthn-skeleton
-	url = git@github.com:kuboon/webauthn-skeleton.git
